@@ -5,52 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="Website.js"></script>
+    <link rel="stylesheet" href="Website.css">
     <style>
         * {
             margin: 0px;
             padding: 0px;
         }
 
-        a {
-            margin-right: 10px;
-            margin-left: 20px;
-            text-decoration: none;
-            color: #fff;
-        }
 
-        nav {
-            background-color: rgb(0, 0, 0);
-            padding: 15px;
-            overflow: hidden;
-            padding-right: 7%;
-        }
+        .aboutdata {
+            padding: 0px 40px 0px;
 
-        nav a {
-            float: right;
-        }
-        .aboutdata{
-            padding:0px 40px 0px;
-          
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <nav>
-            <a href="contactus.html">Contact Us</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="index.html">Home</a>
-        </nav>
+    <!-- Nav Bar -->
+    <div class="topnav " id="myTopnav">
+        <div class="logo"> <img src="logo.png" onclick="window.location.href='index.html'" alt="Logo" height="60px"
+                width="80px" /></div>
+        <a href="index.html" class="active">Home</a>
+        <a href="gallary.htm">Gallary</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
     <img src="https://www.impactbnd.com/hubfs/blog-image-uploads/best-about-us-pages.jpg" alt="about us page"
         height="300px" width="100%">
     <div class="aboutdata">
-        <h3>HTML versions timeline</h3>
+        <h2 style="margin:10px;">HTML versions timeline</h2>
         <h5>HTML 2</h5>
         <h5>November 24, 1995</h5>
-    </br>
+        </br>
         <p>HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities:</p>
         <ul>
             <li>November 25, 1995: RFC 1867 (form-based file upload)</li>
@@ -61,11 +54,11 @@
 
 
     </div>
-</br>
+    </br>
     <div class="aboutdata">
         <h5>HTML 3</h5>
         <h5>January 14, 1997</h5>
-    </br>
+        </br>
         <p>HTML 3.2[15] was published as a W3C Recommendation. It was the first version developed and standardized
             exclusively by the W3C, as the IETF had closed its HTML Working Group on September 12, 1996.[16]
             Initially code-named "Wilbur",[17] HTML 3.2 dropped math formulas entirely, reconciled overlap among various
@@ -73,12 +66,12 @@
             Microsoft's marquee element were omitted due to a mutual agreement between the two companies.[13] A markup
             for mathematical formulas similar to that in HTML was not standardized until 14 months later in MathML.</p>
     </div>
-</br>
+    </br>
 
     <div class="aboutdata">
         <h5>HTML 4</h5>
         <h5>December 18, 1997</h5>
-    </br>
+        </br>
         <p>HTML 4.0[18] was published as a W3C Recommendation. It offers three variations:</p>
         <ul>
             <li>Strict, in which deprecated elements are forbidden</li>
@@ -92,7 +85,7 @@
 
 
     </div>
-</br>
+    </br>
 </body>
 
 </body>

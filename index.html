@@ -5,35 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Website</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        a {
-            margin-right: 10px;
-            margin-left: 20px;
-            text-decoration: none;
-            color: #fff;
-        }
-
-        nav {
-            background-color: rgb(0, 0, 0);
-            padding: 15px;
-            overflow: hidden;
-            margin-top: 30px;
-            padding-right: 7%;
-        }
-
-        nav a {
-            float: right;
-        }
-        p{
-            padding:  0 20px 0 20px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Website.css">
+    <script src="/Website.js"></script>
 </head>
 
 <body>
@@ -44,22 +18,34 @@
         </div>
     </header>
     <div>
-        <h1 style="text-align: center; margin-top: 20px;"><em> WHAT STUFFS MAKE HTML COOL?</em></h1>
+        <h1 style="text-align: center; margin: 20px;"><em>Get Ready For Becoming A Web Developer
+            </em></h1>
     </div>
-    <div>
-        <nav>
-            <a href="contactus.html">Contact Us</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="index.html">Home</a>
-        </nav>
+
+
+    <!-- Nav Bar -->
+    <div class="topnav " id="myTopnav">
+        <div class="logo"> <img src="logo.png" onclick="window.location.href='index.html'" alt="Logo" height="60px"
+                width="80px" /></div>
+        <a href="index.html" class="active">Home</a>
+        <a href="gallary.htm">Gallary</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="aboutus.html">About Us</a>
+
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+
 
     <div>
         <img src="https://repository-images.githubusercontent.com/134285701/635de980-586d-11ea-9220-1a3211239c30"
             height="400px" width="100%" />
     </div>
     <div>
-        <p style="padding-top: 20px;">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a
+        <p style="margin-top:20px;">Hypertext Markup Language (HTML) is the standard markup language for documents
+            designed to be displayed in a
             web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages
             such as JavaScript.</p>
         <br>
@@ -83,9 +69,26 @@
     </div>
 
     <div>
-        <center><img src="https://miro.medium.com/max/498/1*5gJzummAqpBDGATo0fjU6Q.jpeg" height="200px" width="600px" alt="HTML Code Picture" ></center>
+        <center><img src="https://miro.medium.com/max/498/1*5gJzummAqpBDGATo0fjU6Q.jpeg" height="200px" width="50%"
+                alt="HTML Code Picture"></center>
+      
+     <div style="margin-left: 50px;">  <h1>What is HTML?</h1>
+        <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a
+                link", etc.</li>
+
+        </ul>
     </div>
-    <footer> <center> <p> 2020&copy;all rights reserved</p> </center> </footer>
+    <center><img src="https://html-css-js.com/images/tiles/html-editor.jpg" alt="coding picture" style="width: 50%; height: 400px; margin-top: 20px;"  ></center>
+    </div>
+    <footer>
+        <center> 2020&copy;all rights reserved </center>
+    </footer>
 </body>
 
 </html>
